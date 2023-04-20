@@ -1,0 +1,24 @@
+---
+title: "Ejemplo1"
+format: html
+editor: visual
+---
+
+------------------------------------------------------------------------
+## Graficar
+Se muestra el codigo para graficar una linea a partir de dos vectores.
+```{r}
+x <- c(1,8)
+y <- c(3,10)
+dat <- data.frame(x,y)
+library(ggplot2)
+ggplot()+geom_line(data=dat,aes(x=x,y=y))
+```
+## Multiplicacion
+Se muestra el codigo basico para multiplicar 2 variables.
+```{r}
+a <- 2
+b <- 2
+r <- a*b
+r
+```
